@@ -1,0 +1,23 @@
+
+
+.iframe-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+
+.title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 15px;
+    }
+
+    
+  }

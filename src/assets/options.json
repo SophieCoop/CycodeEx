@@ -1,0 +1,60 @@
+{
+    "options": [
+        {
+            "id": 0,
+            "label": "Life style",
+            "isSelected": false
+        },
+        {
+            "id": 1,
+            "label": "Sports",
+            "isSelected": false
+        },
+        {
+            "id": 2,
+            "label": "Love",
+            "isSelected": false
+        },
+        {
+            "id": 3,
+            "label": "Art",
+            "isSelected": false
+        },
+        {
+            "id": 4,
+            "label": "Dogs",
+            "isSelected": false
+        },
+        {
+            "id": 5,
+            "label": "Cats",
+            "isSelected": false
+        },
+        {
+            "id": 6,
+            "label": "Home style",
+            "isSelected": false
+        },
+        {
+            "id": 7,
+            "label": "Paintings",
+            "isSelected": false
+        },
+        {
+            "id": 8,
+            "label": "Makeup",
+            "isSelected": false
+        },
+        {
+            "id": 9,
+            "label": "Surf",
+            "isSelected": false
+        },
+        {
+            "id": 10,
+            "label": "Modeling",
+            "isSelected": false
+        }
+
+    ]
+}

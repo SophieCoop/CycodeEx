@@ -1,0 +1,51 @@
+@keyframes expandingModal {
+  0%   { height: 0; width: 0; }
+  100% { height: 50%; width: 50% }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+  .modal-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+    animation: expandingModal 0.3s ease-in;
+  }
+  
+  .display-block {
+    display: flex;
+  }
+
+  .iframe {
+    display: flex;
+    flex: 1;
+    padding: 10px
+  }
+
+  .close-icon {
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  /* @media (max-width: 1024px) {
+    .hotel-items-container {
+        margin: 27px 22px 27px; 
+    }
+
+    
+  } */
