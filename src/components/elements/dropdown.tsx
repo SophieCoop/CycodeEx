@@ -5,7 +5,7 @@ import '../../assets/styles/dropdown.css';
 import ChipItem from '../interfaces/chipItem';
 
 
-export default function SplitButton(props: { options: ChipItem[], onSelect: any, onNewOption: any, dispatch: any }) {
+export default function Dropdown(props: { options: ChipItem[], onSelect: any, onNewOption: any, dispatch: any }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState<string>("");
   const [filteredOptions, setFilteredOptions] = useState<ChipItem[]>([]);
