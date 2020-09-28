@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import OptionsReducer from './optionsReducer';
-import SubscribeReducer from './SubscribeReducer';
+import SubscribeReducer from './subscribeReducer';
 
 
 const rootReducer = combineReducers({
